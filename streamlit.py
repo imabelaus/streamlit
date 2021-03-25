@@ -19,7 +19,7 @@ st.write("""
 # FrequencyMD Diabetes Detection
  Detect if someone has diabetes using machine learning and python !
 """)
-image = Image.open('/Users/imanolbelausteguigoitia/Downloads/diabetes_image_2.jpg')
+image = Image.open('diabetes_image_2.jpg')
 st.image(image, caption='ML',use_column_width=True)
 
 #Get the data
