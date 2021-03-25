@@ -23,7 +23,7 @@ image = Image.open('/Users/imanolbelausteguigoitia/Downloads/diabetes_image_2.jp
 st.image(image, caption='ML',use_column_width=True)
 
 #Get the data
-df = pd.read_csv("/Users/imanolbelausteguigoitia/Downloads/diabetes.csv")
+df = pd.read_csv("diabetes.csv")
 st.subheader('Data Information:')
 #Show the data as a table (you can also use st.write(df))
 st.dataframe(df)
