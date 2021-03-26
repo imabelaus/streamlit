@@ -43,7 +43,7 @@ def getPCA(df):
     return df
     
 # Title
-st.title("The FredquencyMD Classifier")
+st.title("The FrequencyMD Classifier")
 
 # Description
 st.text("Chose a Dataset and a Classifier in the sidebar. Input your values and get a prediction")
